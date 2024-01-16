@@ -1,0 +1,68 @@
+/*
+Author: Jay Patel, 000881881
+*/
+
+header{
+    text-align: center;
+    border-bottom: 3px solid gray;
+}
+
+body{
+    background-image: url(../images/background.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.spin{
+    animation: spin 1s linear;
+}
+
+@keyframes spin {
+    100% {transform: rotate(360deg);}
+}
+
+.image{
+    height: 24em;
+    width: 24em;
+    background: none;
+    margin-top: 30px;
+}
+
+figcaption{
+    text-align: center;
+    font-style: italic;
+}
+
+.content{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-self: center;
+    justify-items: center;
+    text-align: center;
+}
+
+button{
+    margin: 7px;
+    margin-top: 10px;
+}
+
+button:hover{
+    color: white;
+    background-color: gray;
+    text-decoration: underline;
+}
+
+button:active{
+    color: white;
+    background-color: black;
+    text-decoration: underline;
+}
+
+footer{
+    padding-top: 8px;
+    border-top: 3px solid grey ;
+    text-align: center;
+    font-weight: bold;
+}
+
